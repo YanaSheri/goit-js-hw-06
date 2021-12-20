@@ -1,5 +1,4 @@
 const input = document.querySelector("#validation-input");
-console.log(input.dataset.length);
 
 const changeColor = (add, remove) => {
     input.classList.add(add);
