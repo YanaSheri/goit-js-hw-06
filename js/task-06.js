@@ -6,7 +6,7 @@ const changeColor = (add, remove) => {
 };
 
 const cb = (event) => {
-    if (event.currentTarget.value.length === Number(input.dataset.length)) {
+    if (input.value.length === Number(input.dataset.length)) {
         changeColor("valid", "invalid");
     } else {
         changeColor("invalid", "valid");
